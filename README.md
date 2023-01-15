@@ -1,6 +1,4 @@
-# DesafioWebScrapingApi
-
-<h1 align="center">:file_cabinet: Exemplo de README.md</h1>
+<h1 align="center">:file_cabinet: DesafioWebScrapingApi</h1>
 
 ## :memo: Descrição
 Api Rest para recuperar dentro do site: https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops todos os Notebooks da marca Lenovo e exibi-los em ordem crescente pelo preço.
