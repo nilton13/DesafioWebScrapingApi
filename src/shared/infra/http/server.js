@@ -2,14 +2,16 @@ const express = require('express');
 const cors = require('cors');
 const routes = require('./routes');
 
-const port = process.env.PORT ?? 3000
+const port = process.env.PORT ? process.env.PORT : 3000
 
-const app = express();
+const server = express();
 
-app.use(cors());
-app.use(express.json());
-app.use(routes);
+server.use(cors());
+server.use(express.json());
+server.use(routes);
 
-app.listen(port, () => {
+server.listen(port, () => {
     console.log(`Server is running http://localhost:${port}`)
-})
+});
+
+module.exports = server;
