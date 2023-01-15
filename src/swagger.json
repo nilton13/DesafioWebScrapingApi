@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "Desafio Automações IN8 - Documentation",
+        "description": "Desafio Automações IN8 Documentation with all specifications",
+        "version": "1.0.0",
+        "contact":{
+            "name": "Nilton F.",
+            "email": "nfdeveloper04@gmail.com"
+        } 
+    },
+    "paths": {
+        "/products/lenovo":{
+            "get": {
+                "tags": ["Products"],
+                "summary": "List all Products",
+                "description": "List of all notebooks on the page: https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops sorted by price.",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        }
+    }
+}    
