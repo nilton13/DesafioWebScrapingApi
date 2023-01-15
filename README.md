@@ -1,0 +1,21 @@
+# DesafioWebScrapingApi
+
+<h1 align="center">:file_cabinet: Exemplo de README.md</h1>
+
+## :memo: Descrição
+Escreva uma descrição do seu projeto
+
+## :books: Funcionalidades
+* <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
+
+## :wrench: Tecnologias utilizadas
+* NodeJS;
+* ExpressJS;
+* Puppeteer;
+
+## :rocket: Rodando o projeto
+Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
+```
+yarn install
+yarn dev
+```
